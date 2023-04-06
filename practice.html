@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Practice page - My Drive</title>
+  <link rel="icon" type="image/x-icon" href="Media/drive-icon.png">
+  <script>
+    function changeText() {
+      document.getElementById('change').innerHTML = "This text will not change anymore."
+    }
+  </script>
+  <style>
+  </style>
+</head>
+
+<body>
+
+
+<p id="change">This text will not change.</p>
+
+<p id="1" style="display: none;">This was created when you clicked Button One.  What do the other ones do?</p>
+
+  <button onclick="changeText()">Click Me!</button>
+
+  <button onclick="window.alert('GET JUMPSCARED')">Jumpscare</button>
+
+  <button onclick="document.getElementById('1').style.display = 'block'">Button One</button>
+
+  <button onclick="document.getElementById('1').innerHTML = 'This was altered when you clicked Button Two.  What do the other ones do?'">Button Two</button>
+
+  <button onclick="document.getElementById('greenbutton').style.backgroundColor = 'green'; document.getElementById('redbutton').style.backgroundColor = 'red'; document.getElementById('change').innerHTML = 'This text will stop changing.  I promise.'">Button 3</button>
+
+  <button id="redbutton" onclick="document.getElementById('1').innerHTML = 'This text also not change.'; document.getElementById('greenbutton').innerHTML = 'Press this button to print.'">Button 4</button>
+
+  <button id="greenbutton" onclick="window.print()">Button 5</button>
+
+
+
+  
+</body>
+
+</html>
+
+<!--/practice.html-->

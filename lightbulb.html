@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Lightbulb - My Drive</title>
+  <link rel="icon" type="image/x-icon" href="Media/drive-icon.png">
+  <style>
+    body {
+      background-color: black;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container {
+      height: 100%;
+      position: relative;
+      border: none;
+    }
+
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    article {
+      margin: auto 0;
+    }
+
+    footer {
+      margin-top: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <center>
+    <div class="container">
+      <div class="center">
+        <button onclick="document.getElementById('image').src='Media/pic_bulbon.gif'"
+          style="background-color: green; color: white; border: 4px; border-radius: 4px; border-color: red; padding: 10px 24px;">Click
+          to turn light on</button>
+
+        <img id="image" src="Media/pic_bulboff.gif">
+
+        <button onclick="document.getElementById('image').src='Media/pic_bulboff.gif'"
+          style="background-color: red; color: white; border: 4px; border-radius: 4px; border-color: red; padding: 10px 24px;">Click
+          to turn light off</button>
+      </div>
+    </div>
+  </center>
+</body>
+<footer>
+  <a href="index.html">
+    <img src="Media/white-left-arrow.png" height="50px" width="50px">
+    <p style="text-align: left;">Go Back</p>
+</footer>
+
+</html>

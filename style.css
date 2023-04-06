@@ -1,0 +1,18 @@
+<html>
+
+body {
+  background-color: black; /* dark background color */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* center elements vertically */
+  align-items: center; /* center elements horizontally */
+  height: 100vh; /* set the height of the container to the viewport height */
+}
+
+.text {
+  color: #fff; /* white text color */
+}
+
